@@ -1,0 +1,101 @@
+html, body{
+  height: 100%;
+}
+body{
+  padding: 0;
+  margin: 0;
+}
+h1{
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.container{
+  width: 800px;
+  background-color: rgb(238, 192, 8);
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.row {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+}
+.row2{
+  background-color: rgba(255,255,255,0.5);
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.row2:hover{
+  background-color: rgba(255,255,255,0.8);
+}
+.col-1 {
+  width: 50px;
+}
+.col-2 {
+  width: 100px;
+}
+.col-3 {
+  width: calc(100% - 50px - 100px);
+}
+.bgc1 {
+  background-color: rgb(126, 126, 126);
+}
+.bgc2 {
+  background-color: rgb(169, 169, 169);
+}
+.bgc3 {
+  background-color: rgb(217, 217, 217);
+}
+.bgc4{
+  background-color: rgb(171, 40, 40);
+  border-radius: 5px;
+  color: #fff;
+}
+input[name="all"]{
+  position: relative;
+}
+input[name="all"]::after{
+  content: attr(showText);
+  text-align: center;
+  position: absolute;
+  top: -40px;
+  font-size: 14px;
+  width: 80px;
+  background-color: rgb(232, 48, 48);
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  display: none;
+}
+input[name="all"]:hover::after{
+  display: block;
+}
+button{
+  font-size: 18px;
+  width: 100px;
+  border: none;
+  background-color: rgb(230, 113, 113);
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: rgb(224, 37, 37);
+}
+.hiddenForm{
+  display: none;
+}
+.result{
+  padding: 10px;
+  background-color: rgb(111, 105, 105);
+  color: #fff;
+  border-radius: 5px;
+}
