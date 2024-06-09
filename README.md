@@ -26,4 +26,4 @@ git clone git@github.com:idben/multipleUpdate_01.git .
 ![結果圖示](https://github.com/idben/multipleUpdate_01/blob/main/images/info2.png)
 
 ## 示範網址
-[https://idben.tw-no1.com/iSpan/phpTest/multipleUpdate_01/](https://idben.tw-no1.com/iSpan/phpTest/multipleUpdate_01/)
+[https://sagedaben.com/iSpan/phpTest/multipleUpdate_01/](https://sagedaben.com/iSpan/phpTest/multipleUpdate_01/)
